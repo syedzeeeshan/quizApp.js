@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quizContainer" class="container">
+        <h2 class="bounce" id="quizTitle"></h2>
+        <input type="text" id="friendNameInput" placeholder="Enter your name">
+        <button id="startQuizButton" class="btn">Start Quiz</button>
+        <div class="rules">
+            <span class="rule">Rule-1: Please enter your name first to enter into the quiz.</span>
+            <span class="rule">Rule-2: Select the options and click next.</span>
+            <span class="rule">Rule-3: If you don't find suitable options, please enter your custom choice.</span>
+            <span class="rule">Rule-4: Send the link generated to your friend and ask them to attend the quiz.</span>
+        </div>
+        <div id="questionBox"></div>
+        <button id="nextButton" class="btn" style="display:none;">Next Question</button>
+        <button id="submitButton" class="btn" style="display:none;">Submit</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="frnds.js"></script>
+</body>
+</html>
